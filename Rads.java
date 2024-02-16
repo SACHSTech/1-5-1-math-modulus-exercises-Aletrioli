@@ -1,7 +1,7 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * This program converts degrees to radians given user input
+  * This program will convert degrees to radians given user input
   * @author: T. Martins
   */
   
