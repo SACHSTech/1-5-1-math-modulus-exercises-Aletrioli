@@ -1,13 +1,27 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * This program converts degrees to radians given user input.
+  * @author: Thomas Martins
   */
   
   public void run() {
     
-    // start coding here
-    
+    // declare variables
+    double dblRadians;
+    double dblDegrees;
+
+    // get degrees inputs
+    System.out.println("");
+    dblDegrees = readDouble("Input a measure for degrees: ");
+
+    // calculate conversion
+    dblRadians = Math.toRadians(dblDegrees);
+
+    // output radians
+    System.out.println("");
+    System.out.println("A degree measure of " + dblDegrees + " is equal to a radians measure of " + dblRadians + ".");
+    System.out.println("");
+  
   }
 }

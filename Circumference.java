@@ -21,6 +21,7 @@ class Circumference extends ConsoleProgram {
     // output results
     System.out.println("");
     System.out.println("The circumfrence of a circle with a radius of " + dblRadius + " is " + dblCircumfrence + " centimetres.");
-    
+    System.out.println("");
+
   }
 }
