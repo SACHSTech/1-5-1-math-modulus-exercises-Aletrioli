@@ -7,18 +7,18 @@ class FtoC extends ConsoleProgram {
   
   public void run() {
     
-    // declare variables
+    // declare temperature variables
     double dblFahrenheit;
     double dblCelsius;
 
-    // get values
+    // get value of fahreinheit
     System.out.println("");
     dblFahrenheit = readDouble("Input a degree measure in Fahrenheit: ");
 
-    // calculations
+    // calculate conversion
     dblCelsius = (dblFahrenheit - 32) * 5 / 9;
 
-    // output
+    // output celsius temperature
     System.out.println("");
     System.out.println("A Fahrenheit measure of " + dblFahrenheit + " would convert to " + dblCelsius + " degrees celsius.");
     System.out.println("");

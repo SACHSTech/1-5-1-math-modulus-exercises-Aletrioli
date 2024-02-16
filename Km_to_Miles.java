@@ -6,6 +6,7 @@ class Km_to_Miles extends ConsoleProgram {
   */
   
   public void run() {
+    
     // declare variables
     double dblKm;
     double dblMiles;

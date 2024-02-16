@@ -2,7 +2,7 @@ class Circumference extends ConsoleProgram {
 
   /**
   * A program that computes the circumfrence of a circle given a radius from the user
-  * @author: Thomas Martins
+  * @author: T. Martins
   */
   
   public void run() {

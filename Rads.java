@@ -2,7 +2,7 @@ class Rads extends ConsoleProgram {
 
   /**
   * This program converts degrees to radians given user input.
-  * @author: Thomas Martins
+  * @author: T. Martins
   */
   
   public void run() {

@@ -13,17 +13,17 @@ class AreaSin extends ConsoleProgram {
     double dblAngle; 
     double dblArea;
 
-    // get values
+    // get values of first side, second side, and contained angle in degrees
     System.out.println("");
     dblSide1 = readDouble("Input the value of the first side of the triangle in centimetres: ");
     dblSide2 = readDouble("Input the value of the second side of the triangle in centimetres: ");
     dblAngle = readDouble("Input the value of the angle contained between these two sides in degrees: ");
 
-    // calculations
+    // convert degrees to radians and calculate area
     dblAngle = Math.toRadians(dblAngle);
     dblArea = dblSide1 * dblSide2 * Math.sin(dblAngle) / 2;
 
-    // output results
+    // output area
     System.out.println("");
     System.out.println("Given your inputs, the triangle would have an area of " + dblArea + " centimetres squared.");
     System.out.println("");
