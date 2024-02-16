@@ -1,7 +1,7 @@
 class Power extends ConsoleProgram {
 
   /**
-  * This program will take user input for number a and b, and then put a to the power of b
+  * This program will take user input for a base and exponent, and then apply the exponent to the base
   * @author: T. Martins
   */
   

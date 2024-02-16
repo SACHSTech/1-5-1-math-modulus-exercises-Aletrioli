@@ -1,7 +1,7 @@
 class AreaSin extends ConsoleProgram {
 
   /**
-  * This program will calculate the area of a triangle given two side and the contained angle.
+  * This program will calculate the area of a triangle, given two side and the contained angle
   * @author: T. Martins
   */
   
