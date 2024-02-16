@@ -21,11 +21,11 @@ class AreaSin extends ConsoleProgram {
 
     // convert degrees to radians and calculate area
     dblAngle = Math.toRadians(dblAngle);
-    dblArea = dblSide1 * dblSide2 * Math.sin(dblAngle) / 2;
+    dblArea = dblSide1 * dblSide2 * Math.cos(dblAngle) / 2;
 
     // output area
     System.out.println("");
-    System.out.println("Given your inputs, the triangle would have an area of " + dblArea + " centimetres squared.");
+    System.out.println("Given sides of " + dblSide1 + " and " + dblSide2 + " centimetres, and " + dblAngle + " radians, the triangle would have an area of " + dblArea + " centimetres squared.");
     System.out.println("");
 
   }

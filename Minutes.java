@@ -13,17 +13,17 @@ class Minutes extends ConsoleProgram {
     int intHours;
     int intOutputMinutes;
 
-    // get values
+    // get value of minutes
     System.out.println("");
     intInputMinutes = readInt("Input your number of minutes: ");
 
-    // calculations
+    // calculation days, hours, and minutes
     intHours = intInputMinutes / 60;
     intOutputMinutes = intInputMinutes % 60;
     intDays = intHours / 24;
     intHours = intHours % 24;
 
-    // output
+    // output days and remaining hours and minutes
     System.out.println("");
     System.out.println(intInputMinutes + " minutes would convert to " + intDays + " days, " + intHours + " hours, and " + intOutputMinutes + " minutes.");
     System.out.println("");

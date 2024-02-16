@@ -11,14 +11,14 @@ class Km_to_Miles extends ConsoleProgram {
     double dblKm;
     double dblMiles;
 
-    // get values
+    // get value of kilometres
     System.out.println("");
     dblKm = readDouble("Input a distance in kilometres: ");
 
-    // calculations
+    // calculate conversion
     dblMiles = dblKm * 0.621371;
 
-    // output
+    // output miles
     System.out.println("");
     System.out.println(dblKm + " kilometres converts to " + dblMiles + " miles.");
     System.out.println("");
