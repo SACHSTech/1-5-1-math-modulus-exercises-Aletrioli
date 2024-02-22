@@ -15,7 +15,7 @@ class Circumference extends ConsoleProgram {
     System.out.println("");
     dblRadius = readDouble("Input the radius of a circle in centimetres: ");
 
-    // calculate circumfrence
+    // calculate circumference
     dblCircumference = dblRadius * 2 * Math.PI;
 
     // output results
