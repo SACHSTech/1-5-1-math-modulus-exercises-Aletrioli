@@ -1,7 +1,7 @@
 class Cos3rd extends ConsoleProgram {
 
   /**
-  * This program will receive input fo two sides of a triangle and the contained angle, then to calculate the length of the third side
+  * This program will receive input for two sides of a triangle and the contained angle, then to calculate the length of the third side
   * @author: T. Martins
   */
   
